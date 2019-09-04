@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageViewHinhRandom"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:scaleType="fitXY"
+        android:src="@drawable/nophoto" />
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageViewHinhRandom"
+        android:layout_marginTop="40dp"
+        android:background="#FFEB3B"
+        android:gravity="center"
+        android:text="Chọn hình ảnh bên dưới"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#F20"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/imageViewHinhChon"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_below="@id/textview"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/nophoto" />
+</RelativeLayout>
