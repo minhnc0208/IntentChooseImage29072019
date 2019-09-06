@@ -1,3 +1,43 @@
 <resources>
     <string name="app_name">IntentChooseImage29072019</string>
+    <string-array name="array_Animals">
+        1
+        <item>bo</item>
+        2
+        <item>bocanhcung</item>
+        3
+        <item>bongua</item>
+        4
+        <item>cachep</item>
+        5
+        <item>cadia</item>
+        6
+        <item>chimcanhcut</item>
+        7
+        <item>cho</item>
+        8
+        <item>chodom</item>
+        9
+        <item>chuonchuon</item>
+        10
+        <item>ech</item>
+        11
+        <item>heo</item>
+        12
+        <item>khi</item>
+        13
+        <item>meoden</item>
+        14
+        <item>rua</item>
+        15
+        <item>soi</item>
+        16
+        <item>voi</item>
+        17
+        <item>meolucky</item>
+        18
+        <item>meotrang</item>
+
+
+    </string-array>
 </resources>
