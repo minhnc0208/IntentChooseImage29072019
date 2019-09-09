@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:stretchColumns="*">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_span="6"
+            android:background="#FFEB3B"
+            android:gravity="center"
+            android:text="View1"
+            android:textColor="#F20"
+            android:textSize="30sp">
+
+        </TextView>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:background="#3F51B5"
+            android:gravity="center"
+            android:text="View 2"
+            android:textColor="@android:color/white"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:background="#FFC107"
+            android:gravity="center"
+            android:text="View 3"
+            android:textColor="@android:color/white"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:background="#00BCD4"
+            android:gravity="center"
+            android:text="View 4"
+            android:textColor="@android:color/white"
+            android:textSize="30sp" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="3"
+            android:background="#009688"
+            android:gravity="center"
+            android:text="View 5"
+            android:textColor="@android:color/white"
+            android:textSize="30sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="3"
+            android:background="#F44336"
+            android:gravity="center"
+            android:text="View 6"
+            android:textColor="@android:color/white"
+            android:textSize="30sp" />
+    </TableRow>
+
+</TableLayout>
